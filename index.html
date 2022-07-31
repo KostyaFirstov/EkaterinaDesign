@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EkaterinaDesign</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Меня зовут Екатерина, я занимаюсь созданием дизайн-проектов!">
+    <meta name="keywords" content="дизайн проект, дизайн интерьера, design, дизайн на заказ, разработка дизайн проекта, быстрый дизайн, недорогой дизайн">
+    <!-- <meta name="robots" content="none"> -->
+    <meta name="Author" content="Екатерина Базоева">
+    <meta name="Copyright" content="Екатерина Базоева">
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <div class="logotype">
+                    <a href="index.html">
+                        <img src="./img/top/Logotype.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="links__container">
+                    <ul class="links none">
+                        <li><a class="link" href="#" onclick="slowScroll('#about-block')">ОБО МНЕ</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#portfolio-block')">ПОРТФОЛИО</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#services-block')">УСЛУГИ</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#steps-block')">ЭТАПЫ ПРОЕКТА</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#questions-block')">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+                <div class="connection">
+                    <div class="connection__request">
+                        <button class="btn request-btn" data-modal-button="request">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="connection__contact">
+                        <a href="tel:+79999999999" class="phone">+7(999)999-99-99</a>
+                    </div>
+                    <button aria-label="Меню" class="menu-btn">
+                        <img src="./img/top/sidebar-btn.svg" alt="">
+                    </button>
+                </div>
+                <div class="menu">
+                    <div>
+                    <ul>
+                        <li><a class="menu-link" href="#" onclick="slowScroll('#about-block')">ОБО МНЕ</a></li>
+                        <li><a class="menu-link" href="#" onclick="slowScroll('#portfolio-block')">ПОРТФОЛИО</a></li>
+                        <li><a class="menu-link" href="#" onclick="slowScroll('#services-block')">УСЛУГИ</a></li>
+                        <li><a class="menu-link" href="#" onclick="slowScroll('#steps-block')">ЭТАПЫ ПРОЕКТА</a></li>
+                        <li><a class="menu-link" href="#" onclick="slowScroll('#questions-block')">КОНТАКТЫ</a></li>
+                    </ul>
+                        <button class="btn-menu" data-modal-button="request">ОСТАВИТЬ ЗАЯВКУ</button>
+                        <div class="menu__contact">
+                            <a href="tel:+79999999999" class="phone">+7(999)999-99-99</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="header__carousel owl-carousel owl-theme">
+            <div class="slider__item">
+                <div class="slider__image">
+                    <img src="./img/top/carouselTop-1.webp" alt="designPhoto">
+                </div>
+                <div class="slider__info">
+                    <h2 class="slider__title">Дизайн-</h2>
+                    <p class="slider__desc">Это не то, как предмет выглядит, а то, как он работает.</p>
+                    <a class="slider-btn" href="#" onclick="slowScroll('#about-block')">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__image">
+                    <img src="./img/top/carouselTop-2.webp" alt="designPhoto">
+                </div>
+                <div class="slider__info">
+                    <h2 class="slider__title">Дизайн-</h2>
+                    <p class="slider__desc">Это не то, как предмет выглядит, а то, как он работает.</p>
+                    <a class="slider-btn" href="#" onclick="slowScroll('#about-block')">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+            <div class="slider__item">
+                <div class="slider__image">
+                    <img src="./img/top/carouselTop-1.webp" alt="designPhoto">
+                </div>
+                <div class="slider__info">
+                    <h2 class="slider__title">Дизайн-</h2>
+                    <p class="slider__desc">Это не то, как предмет выглядит, а то, как он работает.</p>
+                    <a class="slider-btn" href="#" onclick="slowScroll('#about-block')">ПОДРОБНЕЕ</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal__window modal__request"  data-modal id="request">
+            <div class="modal__container request__container">
+                <div class="request__desc">
+                    <div class="request__image">
+                        <img src="./img/form/form-left.jpg" alt="">
+                    </div>
+                    <h2 class="request__name">
+                        ЗАКАЗАТЬ<br>
+                        <span>ОБРАТНЫЙ ЗВОНОК</span>
+                    </h2>
+                    <div class="design-el"></div>
+                    <div class="design-el2"></div>
+                </div>
+                <form class="request__form" action="#" method="get">
+                    <input type="text" name="#" maxlength="15" placeholder="Ваше имя" title="Используйте только буквы">
+                    <input type="tel" data-tel-input name="#" placeholder="Телефон" maxlength="18">
+                    <button type="submit" class="request__btn">ОТПРАВИТЬ</button>
+                </form>
+                <button class="close-modal" data-modal-close>
+                    <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                </button>
+            </div>
+        </div>
+
+        <section class="about" id="about-block">
+            <div class="about__container container">
+                <div class="about__title">
+                    <h2 class="title">ОБО МНЕ</h2>
+                </div>
+                <div class="about__content">
+                    <div class="about__image">
+                        <img src="./img/about/kate.jpg" alt="Kate">
+                    </div>
+                    <div class="about__info">
+                        <h3 class="about__name">Екатерина Базоева</h3>
+                        <p class="about__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, praesentium culpa ad magnam atque molestias consectetur facere libero quo tempora beatae labore quod nemo accusantium rerum similique ratione impedit delectus?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="portfolio" id="portfolio-block">
+            <div class="portfolio__container container">
+                <div class="portfolio__title title">
+                    <h2>ПОРТФОЛИО</h2>
+                </div>
+                <div class="portfolio__items">
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio2">
+                                <img src="./img/portfolio/portfolio1.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio3">
+                                <img src="./img/portfolio/portfolio2.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio4">
+                                <img src="./img/portfolio/portfolio3.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio5">
+                                <img src="./img/portfolio/portfolio4.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">                    
+                         <div class="portfolio__image">
+                            <button data-modal-button="portfolio6">    
+                                <img src="./img/portfolio/portfolio5.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio7">    
+                                <img src="./img/portfolio/portfolio6.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio8">
+                                <img src="./img/portfolio/portfolio7.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio9">
+                                <img src="./img/portfolio/portfolio8.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio10">
+                                <img src="./img/portfolio/portfolio9.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio">
+                                <img src="./img/portfolio/portfolio10.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio11">
+                                <img src="./img/portfolio/portfolio1.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__image">
+                            <button data-modal-button="portfolio12">
+                                <img src="./img/portfolio/portfolio12.jpg" alt="IntererDesign">
+                            </button>
+                        </div>
+                        <div class="portfolio__desc">
+                            <h4>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h4>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="portfolio-btn">СМОТРЕТЬ БОЛЬШЕ</a>
+                <div class="design__frame design__frame-top-left"></div>
+                <div class="design__frame design__frame-top-right"></div>
+                <div class="design__frame design__frame-bottom-left"></div>
+                <div class="design__frame design__frame-bottom-right"></div>
+            </div>
+
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio2">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio3">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio4">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio5">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio6">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio7">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio8">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio9">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio10">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio11">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__portfolio"  data-modal id="portfolio12">
+                <div class="modal__container portfolio__container">
+                    <div class="portfolio__title">
+                        <h3>ДИЗАЙН ИНТЕРЬЕР</h3>
+                        <h3>ЖК БАКАЛОВСКИЙ ПРОСПЕКТ</h3>
+                    </div>
+                    <div class="portfolio__info">
+                        <ul>
+                            <li>Местоположение: Москва</li>
+                            <li>Площадь объекта: 56 м²</li>
+                            <li>Стиль интерьера: минимализм</li>
+                        </ul>
+                    </div>
+                    <div class="portfolio__info-image">
+                        <img src="./img/portfolio/info-port.jpg" alt="">
+                    </div>
+                    <div class="portfolio__info-image-up">
+                        <h3>ВИД СВЕРХУ:</h3>
+                        <img src="./img/portfolio/info-port-up.jpg" alt="">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <img src="./img/form/close-btn.svg" alt="CloseBtn">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services-block">
+            <div class="service__container container">
+                <div class="services__title title">
+                    <h2>УСЛУГИ</h2>
+                </div>
+                <div class="services__row">
+                    <div class="services__column">
+                        <div class="services__column-front">
+                            <div class="services__image">
+                                <img src="./img/services/service1.jpg" alt="">
+                            </div>
+                            <div class="services__info">
+                                <h3 class="services__name">ПЛАНИРОВКА</h3>
+                                <h5 class="services__price">От 30 000₽</h5>
+                                <button class="services__btn services__change">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                        <div class="services__column-back">
+                            <div class="services__info">
+                                <h3 class="services__name">ПЛАНИРОВКА</h3>
+                                <p class="services__desc">Выезд на замеры / Техническое задание
+                                    Обмерный план с привязкой инженерных коммуникаций
+                                    План расстановки мебели (3-5 вариантов)
+                                    План демонтажа/монтажа перегородок
+                                    План помещения после перепланировки с размерами
+                                    Стилевое решение (1 коллаж на квартиру)
+                                    Спецификация сантехнического оборудования
+                                    Спецификация мебели
+                                    Спецификация осветительных приборов
+                                    3D визуализация (не менее 4х изображений на помещение )
+                                </p>
+                                <button class="services__btn" data-modal-button="planirovka">ПРИМЕР</button>
+                                <button class="services__btn services__change">НАЗАД</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__column">
+                        <div class="services__column-front">
+                            <div class="services__image">
+                                <img src="./img/services/service-3.jpg" alt="">
+                            </div>
+                            <div class="services__info">
+                                <h3 class="services__name">ЧЕРТЁЖНЫЙ</h3>
+                                <h5 class="services__price">От 1900₽</h5>
+                                <button class="services__btn services__change">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                        <div class="services__column-back">
+                            <div class="services__info">
+                                <h3 class="services__name">ЧЕРТЁЖНЫЙ</h3>
+                                <p class="services__desc">Выезд на замеры / Техническое задание
+                                    Обмерный план с привязкой инженерных коммуникаций
+                                    План расстановки мебели (3-5 вариантов)
+                                    План демонтажа/монтажа перегородок
+                                    План помещения после перепланировки с размерами
+                                    Стилевое решение (1 коллаж на квартиру)
+                                    Спецификация сантехнического оборудования
+                                    Спецификация мебели
+                                    Спецификация осветительных приборов
+                                    3D визуализация (не менее 4х изображений на помещение )
+                                </p>
+                                <button class="services__btn" data-modal-button="drawing">ПРИМЕР</button>
+                                <button class="services__btn services__change">НАЗАД</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services__column">
+                        <div class="services__column-front">
+                            <div class="services__image">
+                                <img src="./img/services/service4.jpg" alt="">
+                            </div>
+                            <div class="services__info">
+                                <h3 class="services__name">ДИЗАЙН</h3>
+                                <h5 class="services__price">ОТ 3 500₽</h5>
+                                <button class="services__btn services__change">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                        <div class="services__column-back">
+                            <div class="services__info">
+                                <h3 class="services__name">ДИЗАЙН</h3>
+                                <p class="services__desc">Выезд на замеры / Техническое задание
+                                    Обмерный план с привязкой инженерных коммуникаций
+                                    План расстановки мебели (3-5 вариантов)
+                                    План демонтажа/монтажа перегородок
+                                    План помещения после перепланировки с размерами
+                                    Стилевое решение (1 коллаж на квартиру)
+                                    Спецификация сантехнического оборудования
+                                    Спецификация мебели
+                                    Спецификация осветительных приборов
+                                    3D визуализация (не менее 4х изображений на помещение )
+                                </p>
+                                <button class="services__btn" data-modal-button="design">ПРИМЕР</button>
+                                <button class="services__btn services__change">НАЗАД</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal__window modal__diplom" id="planirovka" data-modal>
+                <div class="modal__container diplom__container">
+                    <div class="diplom__image">
+                        <img src="./img/services/ex-plan.jpg" alt="Planing">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="26.3536" y1="0.353553" x2="1.35355" y2="25.3536" stroke="#2F2F2F"/>
+                            <line y1="-0.5" x2="35.3553" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1 0)" stroke="#2F2F2F"/>
+                        </svg>                        
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__diplom" id="drawing" data-modal>
+                <div class="modal__container diplom__container">
+                    <div class="diplom__image">
+                        <img src="./img/services/ex-paint.jpg" alt="Drawing">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="26.3536" y1="0.353553" x2="1.35355" y2="25.3536" stroke="#2F2F2F"/>
+                            <line y1="-0.5" x2="35.3553" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1 0)" stroke="#2F2F2F"/>
+                        </svg>                        
+                    </button>
+                </div>
+            </div>
+            <div class="modal__window modal__diplom" id="design" data-modal>
+                <div class="modal__container diplom__container">
+                    <div class="diplom__image">
+                        <img src="./img/services/ex-design.jpg" alt="Design">
+                    </div>
+                    <button class="close-modal" data-modal-close>
+                        <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="26.3536" y1="0.353553" x2="1.35355" y2="25.3536" stroke="#2F2F2F"/>
+                            <line y1="-0.5" x2="35.3553" y2="-0.5" transform="matrix(0.707107 0.707107 0.707107 -0.707107 1 0)" stroke="#2F2F2F"/>
+                        </svg>                        
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <article class="steps" id="steps-block">
+            <div class="steps__container container">
+                <div class="steps__title title">
+                    <h2>ЭТАПЫ ПРОЕКТА</h2>
+                </div>
+                <div class="steps__items">
+                    <div class="steps__item steps__item-first anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step1.svg" alt="Step"> 
+                        </div>
+                        <div class="steps__name">
+                            <h3>Формирование <br>
+                                технического задания</h3>
+                        </div>
+                        <div class="steps__arrow">
+                            <img src="./img/steps/Arrow-steps.svg" alt="Arrow-steps">
+                        </div>
+                    </div>
+                    <div class="steps__item steps__item-second anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step2.svg" alt="Step">            
+                        </div>
+                        <div class="steps__name">
+                            <h3>Создание образа <br>
+                                будущего интерьера</h3>
+                        </div>
+                        <div class="steps__arrow">
+                            <img src="./img/steps/Arrow-steps.svg" alt="Arrow-steps">
+                        </div>
+                    </div>
+                    <div class="steps__item steps__item-third anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step3.svg" alt="Step"> 
+                        </div>
+                        <div class="steps__name">
+                            <h3>Окончательное <br>
+                                уточнение образа</h3>
+                        </div>
+                        <div class="steps__arrow steps__arrow-three">
+                            <img src="./img/steps/Arrow-steps.svg" alt="Arrow-steps">
+                        </div>
+                    </div>
+                    <div class="steps__item steps__item-fourth anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step4.svg" alt="Step">                                      
+                        </div>
+                        <div class="steps__name">
+                            <h3>3D-визуализация дизайна <br>
+                                 и создание развёрток</h3>
+                        </div>
+                        <div class="steps__arrow steps__arrow-five">
+                            <img src="./img/steps/Arrow-steps.svg" alt="Arrow-steps">
+                        </div>
+                    </div>
+                    <div class="steps__item steps__item-fifth anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step5.svg" alt="Step">           
+                        </div>
+                        <div class="steps__name">
+                            <h3>Составление альбома <br>
+                                чертежей я</h3>
+                        </div>
+                        <div class="steps__arrow steps__arrow-four">
+                            <img src="./img/steps/Arrow-steps.svg" alt="Arrow-steps">
+                        </div>
+                    </div>
+                    <div class="steps__item steps__item-sixth anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step6.svg" alt="Step">             
+                        </div>
+                        <div class="steps__name">
+                            <h3>Создание спецификаций</h3>
+                        </div>
+                        <div class="steps__arrow steps__arrow-six">
+                            <img src="./img/steps/Arrow-steps.svg" alt="Arrow-steps">
+                        </div>
+                    </div>
+                    <div class="steps__item steps__item-seventh anim">
+                        <div class="steps__image">
+                            <img src="./img/steps/step7.svg" alt="Step"> 
+                        </div>
+                        <div class="steps__name">
+                            <h3>Авторский надзор</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="steps-btn" data-modal-button="request">ЗАКАЗАТЬ ПРОЕКТ</button>
+        </article>
+
+        <article class="questions" id="questions-block">
+            <div class="questions__container container">
+                <div class="questions__title title">
+                    <h2>Остались вопросы?</h2>
+                </div>
+                <form class="questions__form" action="#" method="get">
+                    <input type="text" required name="name" maxlength="15" placeholder="Имя">
+                    <input type="tel" required name="tel" placeholder="Телефон">
+                    <textarea name="comment" required placeholder="Ваш вопрос"></textarea>
+                    <button class="form-btn" type="submit">ОТПРАВИТЬ</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <nav class="bottom__navigation navigation">
+                <div class="logotype">
+                    <a href="index.html">
+                        <img src="./img/top/Logotype.svg" alt="Logo">
+                    </a>
+                </div>
+                <div class="links__container">
+                    <ul class="links">
+                        <li><a class="link" href="#" onclick="slowScroll('#about-block')">ОБО МНЕ</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#portfolio-block')">ПОРТФОЛИО</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#services-block')">УСЛУГИ</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#steps-block')">ЭТАПЫ ПРОЕКТА</a></li>
+                        <li><a class="link" href="#" onclick="slowScroll('#questions-block')">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+                <div class="connection">
+                    <div class="connection__request">
+                        <button class="btn request-btn" data-modal-button="request">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                    <div class="connection__contact connection__contact-bottom">
+                        <a href="tel:+79999999999" class="phone">+7(999)999-99-99</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
